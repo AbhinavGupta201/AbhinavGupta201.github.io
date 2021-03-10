@@ -1,7 +1,8 @@
 <?php
 	session_start();
     $servername = "localhost";
-    // your username 
+    // your username // $username = "  your username";
+    //$password = "your password"; 
    // your password 
     
     // Create connection
@@ -13,7 +14,7 @@
     else
     {
 
-        mysqli_select_db($conn,'canteen');
+        mysqli_select_db($conn,'canteen'); // your database to select 
         $user=$_POST['username'];
         $pass=$_POST['password'];
        
