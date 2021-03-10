@@ -1,7 +1,7 @@
 <?php
     $servername = "localhost";
-    $username = "abhinavG";
-    $password = "Ag@12nitk201";
+   // $username = "  your username";
+    //$password = "your password"; 
     
     // Create connection
     $conn = new mysqli($servername, $username, $password);
@@ -12,7 +12,7 @@
     else
     {
 	    
-        mysqli_select_db($conn,'canteen');
+        mysqli_select_db($conn,'canteen');  // your database name to select from in 2nd argument 
         $user=$_POST['Username'];
 	$pass=$_POST['password'];
 	$block=$_POST['Block'];
