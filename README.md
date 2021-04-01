@@ -1,3 +1,9 @@
 ## DBMS-PROJECT
 
-1.To contribute, clone the repository make changes, and push the code and Make pull request.
+**This was our Project, in the Course Data base management system**
+In this Project,Complete frontend, backend and database is implemented.
+#Language
+-FrontEnd: Html, CSS, JavaScript
+-BackEnd: Php
+-DataBase: Mysql
+
