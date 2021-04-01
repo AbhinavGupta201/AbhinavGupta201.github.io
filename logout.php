@@ -6,10 +6,13 @@
 <html>
 <head>
        <title>Logout</title>
-       <meta http-equiv="refresh" content= "5; url=index.html"/>
+       <meta http-equiv="refresh" content= "1; url=index.html"/>
 </head>
 <body>
-  <h1>You have Successfully logout..</br>Will be redirected to home page after the 5 sec.</h1>
-  <a href="index.html">go to home</a>
+  <div style="margin:100px;">
+    <h1>You have Successfully logout..</br>Will be redirected to home page after the 1 sec.</h1>
+    <a href="index.html">go to home</a>
+  </div>
+  
 </body>
 </html>

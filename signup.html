@@ -18,8 +18,7 @@
             <tr  >
                 <td><img src="restorant_logo.png" alt="Logo" width="100px" height="100px ";/>  </td>
                 <td ><a href="index.html" class='i202'>Home</a></td>
-                <td><a href="menu.html" class="i202">Menu</a></td>
-                <td><a href="order.html" class="i202">Order</a></td>
+                
                 <td><a href="contactUs.html" class="i202">Contact</a></td>
                 <td><a href="signup.html" class="i202">Signup</a></td>
                 <td><a href="login.html" class="i202">Login</a></td>
@@ -34,7 +33,7 @@
             <p>Already have an account? <a href="login.html"  >Login</a></p>
 
             <label for="name">Username</label><br>
-            <input type="text" name="Username"><br><br>
+            <input type="text" name="Username" required><br><br>
 
             <label for="block">Block No.</label><br>
             <select name="Block" id="block">
@@ -49,10 +48,10 @@
             </select><br><br>
 
             <label for="phone">Phone No.</label><br>
-            <input type="number" name="phone" min="1000000000" max="9999999999"><br><br>
+            <input type="number" name="phone" min="1000000000" max="9999999999" required><br><br>
             
             <label for="password">Password</label><br>
-            <input type="password" name="password"><br><br>
+            <input type="password" name="password" required><br><br>
 
             <input type="submit"  style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><br>
         </form>

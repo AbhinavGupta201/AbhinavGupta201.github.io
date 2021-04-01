@@ -1,8 +1,7 @@
 <?php
     $servername = "localhost";
-   // $username = "  your username";
-    //$password = "your password"; 
-    
+    $username = "abhinavG";
+    $password = "Ag@12nitk201";  
     // Create connection
     $conn = new mysqli($servername, $username, $password);
   
@@ -12,7 +11,7 @@
     else
     {
 	    
-        mysqli_select_db($conn,'canteen');  // your database name to select from in 2nd argument 
+        mysqli_select_db($conn,'canteen');
         $user=$_POST['Username'];
 	$pass=$_POST['password'];
 	$block=$_POST['Block'];
@@ -24,7 +23,7 @@
         
     }
 ?>
-<!DOCTYPE html>
+<!DOCTYPE html><html>
 <head>
 	<script>
 		alert("You have Succesfully signed up.Login To sign in");
@@ -33,7 +32,6 @@
 <body>
 <?php 
     header("location:login.html");
-?> 
-    
-</body>
+?>   
+</body></html>
     
